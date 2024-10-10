@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    /* Your existing options... */
+    
+    "target": "es2016",
+    "module": "esnext", // Change this to "esnext" or another valid option
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  }
+}
