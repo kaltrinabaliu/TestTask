@@ -1,0 +1,24 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "name": "John",
+      "lastName": "Doe",
+      "address": "123 Main St",
+      "city": "Anytown",
+      "country": "USA",
+      "emails": ["john.doe@example.com"],
+      "phoneNumbers": ["123-456-7890"]
+    },
+    {
+      "id": 2,
+      "name": "Jane",
+      "lastName": "Smith",
+      "address": "456 Maple Ave",
+      "city": "Othertown",
+      "country": "USA",
+      "emails": ["jane.smith@example.com"],
+      "phoneNumbers": ["987-654-3210"]
+    }
+  ]
+}
