@@ -30,7 +30,9 @@ const ContactsList = () => {
             | null
             | undefined;
         }) => (
-          <li key={contact.id}>{contact.name}</li>
+          <li className="bg-red-500" key={contact.id}>
+            {contact.name}
+          </li>
         )
       )}
     </ul>
