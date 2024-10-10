@@ -1,17 +1,19 @@
 import { useState } from "react";
-import "./App.css";
-import ContactList from "./components/ContactList";
 import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import HomePage from "./views/HomePage";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div>
-      <div>
-        <ContactList />
-      </div>
-    </div>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
