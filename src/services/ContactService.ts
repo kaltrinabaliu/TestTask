@@ -23,9 +23,9 @@ export class ContactService implements IContactService {
     }
   }
 
-  async update(contactId: number): Promise<void> {
+  async update(contactId: number, contact: ContactDto): Promise<void> {
     try {
-      await this.contactRepository.update(contactId);
+      await this.contactRepository.update(contactId, contact);
     } catch (error) {
       console.error("Failed to update contact:", error);
       throw new Error("Could not update contact.");

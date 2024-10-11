@@ -1,32 +1,36 @@
 {
   "contacts": [
     {
-      "id": "1",
       "name": "John",
       "lastName": "Doe",
       "address": "123 Main St",
       "city": "Anytown",
       "country": "USA",
-      "email": [
-        "john.doe@example.com"
+      "emails": [
+        "john.doe@example.com",
+        "11",
+        "22",
+        "44"
       ],
       "phoneNumbers": [
-        "123-456-7890"
-      ]
+        "123-456-7890",
+        "124324344344"
+      ],
+      "id": "1"
     },
     {
-      "id": "2",
       "name": "Jane",
       "lastName": "Smith",
       "address": "456 Maple Ave",
       "city": "Othertown",
       "country": "USA",
-      "email": [
-        "jane.smith@example.com"
+      "emails": [
+        "john.doe@example.com"
       ],
       "phoneNumbers": [
-        "987-654-3210"
-      ]
+        "123-456-7890"
+      ],
+      "id": "2"
     },
     {
       "id": "3",
@@ -35,7 +39,7 @@
       "address": "123 Main St",
       "city": "Anytown",
       "country": "USA",
-      "email": [
+      "emails": [
         "john.doe@example.com"
       ],
       "phoneNumbers": [
@@ -43,18 +47,18 @@
       ]
     },
     {
-      "id": "4",
       "name": "Jane",
       "lastName": "Smith",
       "address": "456 Maple Ave",
       "city": "Othertown",
       "country": "USA",
-      "email": [
-        "jane.smith@example.com"
+      "emails": [
+        "john.doe@example.com"
       ],
       "phoneNumbers": [
-        "987-654-3210"
-      ]
+        "123-456-7890"
+      ],
+      "id": "4"
     },
     {
       "id": "5",
@@ -63,112 +67,12 @@
       "address": "123 Main St",
       "city": "Anytown",
       "country": "USA",
-      "email": [
+      "emails": [
         "john.doe@example.com"
       ],
       "phoneNumbers": [
         "123-456-7890"
       ]
-    },
-    {
-      "id": "6",
-      "name": "Jane",
-      "lastName": "Smith",
-      "address": "456 Maple Ave",
-      "city": "Othertown",
-      "country": "USA",
-      "email": [
-        "jane.smith@example.com"
-      ],
-      "phoneNumbers": [
-        "987-654-3210"
-      ]
-    },
-    {
-      "id": "7",
-      "name": "John",
-      "lastName": "Doe",
-      "address": "123 Main St",
-      "city": "Anytown",
-      "country": "USA",
-      "email": [
-        "john.doe@example.com"
-      ],
-      "phoneNumbers": [
-        "123-456-7890"
-      ]
-    },
-    {
-      "id": "8",
-      "name": "Jane",
-      "lastName": "Smith",
-      "address": "456 Maple Ave",
-      "city": "Othertown",
-      "country": "USA",
-      "email": [
-        "jane.smith@example.com"
-      ],
-      "phoneNumbers": [
-        "987-654-3210"
-      ]
-    },
-    {
-      "id": "9",
-      "name": "John",
-      "lastName": "Doe",
-      "address": "123 Main St",
-      "city": "Anytown",
-      "country": "USA",
-      "email": [
-        "john.doe@example.com"
-      ],
-      "phoneNumbers": [
-        "123-456-7890"
-      ]
-    },
-    {
-      "id": "10",
-      "name": "Jane",
-      "lastName": "Smith",
-      "address": "456 Maple Ave",
-      "city": "Othertown",
-      "country": "USA",
-      "email": [
-        "jane.smith@example.com"
-      ],
-      "phoneNumbers": [
-        "987-654-3210"
-      ]
-    },
-    {
-      "id": "8803",
-      "name": "Kaltrina",
-      "lastName": "Baliu",
-      "address": "Shtutice",
-      "city": "Skenderaj",
-      "country": "Kosovo",
-      "email": "kaltrinebaliu@gmail.com",
-      "number": "045842403"
-    },
-    {
-      "id": "d7dd",
-      "name": "Fjolla",
-      "lastName": "Baliu",
-      "address": "sht",
-      "city": "sk",
-      "country": "ks",
-      "email": "fjolla@gmail.com",
-      "number": "444566"
-    },
-    {
-      "id": "5146",
-      "name": "linda",
-      "lastName": "v",
-      "address": "sk",
-      "city": "sk",
-      "country": "ks",
-      "email": "linda@gmail.com",
-      "number": "12466"
     }
   ]
 }

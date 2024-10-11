@@ -1,4 +1,3 @@
-
 export interface ContactDto {
   id: Number;
   name: string;
@@ -6,7 +5,6 @@ export interface ContactDto {
   address: string;
   city: string;
   country: string;
-  emails: string;
-  phoneNumbers: string;
-
+  emails: [];
+  phoneNumbers: [];
 }
