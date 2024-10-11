@@ -21,9 +21,9 @@ export class ContactRepository implements IContactRepository {
     }
   }
 
-  async update(id: number): Promise<void> {
+  async update(id: number, contact: ContactDto): Promise<void> {
     try {
-      await this.apiClient.put(`/contacts/${id}`, id);
+      await this.apiClient.put(`/contacts/${id}`, contact);
     } catch (error) {
       console.error("Error updating contacts:", error);
     }

@@ -1,24 +1,78 @@
 {
   "contacts": [
     {
-      "id": 1,
       "name": "John",
       "lastName": "Doe",
       "address": "123 Main St",
       "city": "Anytown",
       "country": "USA",
-      "emails": ["john.doe@example.com"],
-      "phoneNumbers": ["123-456-7890"]
+      "emails": [
+        "john.doe@example.com",
+        "11",
+        "22",
+        "44"
+      ],
+      "phoneNumbers": [
+        "123-456-7890",
+        "124324344344"
+      ],
+      "id": "1"
     },
     {
-      "id": 2,
       "name": "Jane",
       "lastName": "Smith",
       "address": "456 Maple Ave",
       "city": "Othertown",
       "country": "USA",
-      "emails": ["jane.smith@example.com"],
-      "phoneNumbers": ["987-654-3210"]
+      "emails": [
+        "john.doe@example.com"
+      ],
+      "phoneNumbers": [
+        "123-456-7890"
+      ],
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "name": "John",
+      "lastName": "Doe",
+      "address": "123 Main St",
+      "city": "Anytown",
+      "country": "USA",
+      "emails": [
+        "john.doe@example.com"
+      ],
+      "phoneNumbers": [
+        "123-456-7890"
+      ]
+    },
+    {
+      "name": "Jane",
+      "lastName": "Smith",
+      "address": "456 Maple Ave",
+      "city": "Othertown",
+      "country": "USA",
+      "emails": [
+        "john.doe@example.com"
+      ],
+      "phoneNumbers": [
+        "123-456-7890"
+      ],
+      "id": "4"
+    },
+    {
+      "id": "5",
+      "name": "John",
+      "lastName": "Doe",
+      "address": "123 Main St",
+      "city": "Anytown",
+      "country": "USA",
+      "emails": [
+        "john.doe@example.com"
+      ],
+      "phoneNumbers": [
+        "123-456-7890"
+      ]
     }
   ]
 }
