@@ -1,24 +1,6 @@
 {
   "contacts": [
     {
-      "name": "John",
-      "lastName": "Doe",
-      "address": "123 Main St",
-      "city": "Anytown",
-      "country": "USA",
-      "emails": [
-        "john.doe@example.com",
-        "11",
-        "22",
-        "44"
-      ],
-      "phoneNumbers": [
-        "123-456-7890",
-        "124324344344"
-      ],
-      "id": "1"
-    },
-    {
       "name": "Jane",
       "lastName": "Smith",
       "address": "456 Maple Ave",
@@ -61,18 +43,20 @@
       "id": "4"
     },
     {
-      "id": "5",
-      "name": "John",
-      "lastName": "Doe",
-      "address": "123 Main St",
-      "city": "Anytown",
-      "country": "USA",
+      "name": "kaltrina",
+      "lastName": "baliu",
+      "address": "Prsihtine",
+      "city": "skenderaj",
+      "country": "Kosove",
       "emails": [
-        "john.doe@example.com"
+        "kaltrinebaliu@gmail.com",
+        "kaltrine.baliu@student.uni-pr.edu"
       ],
       "phoneNumbers": [
-        "123-456-7890"
-      ]
+        "12323434345",
+        "12423434"
+      ],
+      "id": "ca19"
     }
   ]
 }

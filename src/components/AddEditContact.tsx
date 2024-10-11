@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { createContact, updateContact } from "../redux/contact/contactSlice";
 import InputText from "./InputText";
+import ActionButton from "./ActionButton";
 
 const inputFields = [
   { name: "Name:", placeholder: "Enter the Name", field: "name" },
@@ -11,12 +12,7 @@ const inputFields = [
   { name: "Country:", placeholder: "Enter Country", field: "country" },
 ];
 
-const AddEditContact = ({
-  contact,
-  setSelectedContact,
-  onSave,
-  onCancel,
-}: any) => {
+const AddEditContact = ({ contact, onSave, onCancel }: any) => {
   const dispatch = useDispatch();
   const [formData, setFormData] = useState({
     name: "",
@@ -149,18 +145,18 @@ const AddEditContact = ({
       </div>
 
       <div className="flex space-x-4 mt-4">
-        <button
-          onClick={handleSave}
-          className="bg-blue-500 text-white px-4 py-2 rounded"
-        >
-          Save
-        </button>
-        <button
-          onClick={() => onCancel()}
-          className="bg-gray-500 text-white px-4 py-2 rounded"
-        >
-          Cancel
-        </button>
+        <ActionButton
+          label="Save"
+          click={() => handleSave()}
+          bgColor="bg-blue-500"
+          hoverBgColor="bg-blue-600"
+        />
+        <ActionButton
+          label="Cancel"
+          click={() => onCancel()}
+          bgColor="bg-gray-500"
+          hoverBgColor="bg-gray-600"
+        />
       </div>
     </div>
   );
